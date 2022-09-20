@@ -4,8 +4,8 @@ import ME from '../../assets/img1.jpg'
 
 function Header() {
   return (
-    <header>
-       <div className="container header_container">
+    <header className="container">
+       <div className="header_container">
           <h5>Hi I'm</h5>
           <h1>DHANA RAGAVENDRAN P</h1>
           <h5 className='text-light'>UI DEVELOPER</h5>
