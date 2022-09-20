@@ -9,6 +9,8 @@ import {FaLanguage} from 'react-icons/fa'
 import {AiOutlineContacts} from 'react-icons/ai'
 import {BiDonateBlood} from 'react-icons/bi'
 import {AiFillFlag} from 'react-icons/ai'
+import {BiBriefcase} from 'react-icons/bi'
+import {AiFillProject} from 'react-icons/ai'
 
 const about = () => {
   return (
@@ -56,13 +58,13 @@ const about = () => {
          <div className="about_content">
              <div className="about_cards">
                 <article className='about_card'>
-                   <FaAward className='about_icon' />
+                   <BiBriefcase className='about_icon' />
                    <h5>Experience</h5>
                    <small>2+ years </small>
                 </article>
                 
                 <article className='about_card'>
-                   <FaAward className='about_icon' />
+                   <AiFillProject className='about_icon' />
                    <h5>Projects</h5>
                    <small>6+ completed</small>
                 </article>
